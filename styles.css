@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    box-sizing: border-box;
+
+}
+
+.navbar img{
+    width: 60px;
+    border-radius: 50px;
+}
+li{
+list-style: none;
+
+}
+li a{
+    color: rgb(4, 61, 92);
+}
+
+
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    top: 40%;
+    left: 20%;
+
+}
+.section-title h1 {
+    text-decoration: underline;
+    text-decoration-color: lightseagreen;
+}
+
+
+.Hero-section{
+    background: url("https://img.freepik.com/premium-photo/blue-background-with-glasses-it-blue-background_916191-267086.jpg");
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+
+
+}
+.hero-container h1{
+    font-size: 80px;
+    color:rgb(5, 51, 80);
+    margin-bottom: 20px;
+}
+.hero-container h5{
+    color:rgb(5, 51, 80);
+    margin-bottom: 20px;
+}
+.hero-container p{
+    color:rgb(5, 51, 80);
+    margin-bottom: 20px;
+}
